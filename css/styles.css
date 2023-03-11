@@ -73,6 +73,19 @@ body {
   text-transform: uppercase;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /** ------HEADER------ */
 
 .header {
@@ -189,9 +202,8 @@ body {
   background-color: var(--accent-color);
 }
 
-/** -------About us, What are we doing, Our team H2-HEADING------- */
+/** ------- What are we doing, Our team H2-HEADING------- */
 
-.values-heading,
 .services-heading,
 .team-heading {
   color: var(--headings-color);
